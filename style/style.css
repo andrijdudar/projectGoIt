@@ -22,6 +22,7 @@ aside{
 	background: #1E2939;
 	max-width: 370px;
 }
+
 .sidebar a{
 	margin-left: 10px;
 	font-weight: 400;
@@ -41,6 +42,7 @@ aside h3{
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 27px;
+	color: #FFFFFF;
 }
 .contact p{
 	font-weight: 700;
