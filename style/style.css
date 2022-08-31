@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	max-width: 100%;
+	margin: 40px;
+	font-family: 'Montserrat';
+	font-style: normal;
+}
+.main{
+	margin: auto;
+	max-width: 1200px;
+	background: #FFFFFF;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	display: flex;
+}
+aside{
+	color: #FFFFFF;
+	background: #1E2939;
+	max-width: 370px;
+}
+.sidebar a{
+	margin-left: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.sidebar{
+	margin-left: 40px;
+}
+img{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+aside h3{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+}
+.contact p{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+}
+.teach__skills{
+	margin-top: 47px;
+}
+.sof__skills{
+	margin-top: 44px;
+}
+
+
+.sidebar li{
+	margin-left: 16px;
+	color: #FB6D3A;
+}
+.sidebar li span{
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+.main__content{
+	margin: 102px 217px auto 88px;
+}
+h2{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+
+}
+h1{
+	margin-top:19px ;
+	margin-bottom:24px ;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+}
+.about__me{
+	max-width: 400px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+h3{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+}
+.project{
+	margin-top: 40px;
+	margin-bottom: 8px;
+}
+ol{
+	font-weight: 700;
+	line-height: 24px;
+	font-size: 14px;
+	
+}
+ol li a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	font-weight: 400;
+}
+a:visited {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+
+hr{
+	display: inline-block;
+	border: 1px dashed #A8A8A8;
+}
+.line1{
+	width: 118px;
+}
+.line2 {
+	width: 122.38px;
+}
+.line3 {
+	width: 141.93px;
+}
+.nob{
+	color: #A8A8A8;
+	font-weight: 400;
+}
+.experience{
+	margin-top: 51px;
+	
+}
+
+.orangee{
+	color: #FB6D3A;
+}
+.date{
+	margin-bottom: 8px;
+	line-height: 15px;
+	color: #A8A8A8;
+	font-size: 12px;
+}
+h4{
+	margin-top: 18px;
+	margin-bottom: 11px;
+}
+.ulli{
+	line-height: 24px;
+	color: #595959;
+	font-size: 14px;
+}
+.education{
+	margin-top: 43px;
+}
