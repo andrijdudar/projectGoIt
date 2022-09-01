@@ -9,13 +9,14 @@ body{
 	margin: 40px;
 	font-family: 'Montserrat';
 	font-style: normal;
+	min-width: 1200px;   /*!  !!!!!del   */
 }
 .main{
-	margin: auto;
-	max-width: 1200px;
+	display: flex;
+	margin: auto ;
+	width: 1200px;
 	background: #FFFFFF;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-	display: flex;
 }
 aside{
 	color: #FFFFFF;
@@ -131,6 +132,7 @@ hr{
 	border: 1px dashed #A8A8A8;
 }
 .line1{
+
 	width: 118px;
 }
 .line2 {
