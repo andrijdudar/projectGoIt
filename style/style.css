@@ -7,7 +7,6 @@ body{
 .main{
 	display: flex;
 	flex-direction: row-reverse;
-	/*background: #F5F7FA;;*/
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -108,7 +107,7 @@ margin-bottom: 10px;
 .sidebar{
 	padding-top: 40px;
 	background: #1E2939;
-	wid: 370px;
+	width: 370px;
 }
 .photo{
 	width: 370px;
