@@ -4,43 +4,58 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="./style/style.css">
 	<title>GO IT</title>
-</head>
+</head>		
 <body>
 	<!--main-->
-	<div>
+	<div class="main">
 		<!--main content -->
-		<div>
+		<div class="main_content">
 			<!--about user -->
-			<div>
-				<h2>Front-End Developer</h2>
+			<div class="about">
+				<h2 class="about_positson">Front-End Developer</h2>
 				
-				<h1>Anton Chornyi</h1>
+				<h1 class="about_name">Anton Chornyi</h1>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+				<p class="about_description">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 				aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
 				
 			</div>
 
 			<!--project -->
-			<div>
-				<h3>Projects</h3>
-				<ol>
-					<li><a href="https://hellenglish.goit.global/ ">https://hellenglish.goit.global/</a>
-					..........[ HTML5, CSS3 ]</li>
-					<li><a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-					...........[ JavaScript ]</li>
-					<li><a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-					...............[ React.js, Node.js ]</li>
+			<div class="projects">
+				<h3 class="title">Projects</h3>
+				<ol class="projects_list">
+					<li class="projects_item" >
+						<span class="projec">
+							<a class="project_link" href="https://hellenglish.goit.global/ ">https://hellenglish.goit.global/ </a>
+					..........<span class="project_bracket">[</span> HTML5, CSS3 <span class="project_bracket">]</span>
+						</span>
+					</li>
+					<li class="projects_item" >
+						<span class="projec">
+							<a class="project_link" href="https://cryptohub.goit.global/">https://cryptohub.goit.global/ </a>
+					............<span class="project_bracket">[</span> JavaScript <span class="project_bracket">]</span>
+						</span>
+					</li>
+					<li class="projects_item" >
+						<span class="projec">
+							<a class="project_link" href="https://kidslike.goit.global/">https://kidslike.goit.global/ </a>
+					...................<span class="project_bracket">[</span> React.js, Node.js <span class="project_bracket">]</span>
+						</span>
+					</li>
 				</ol>
 
 			</div>
 			<!--work-->
-			<div>
-				<h3>Work Experience</h3>
+			<div class="work">
+				<h3 class="title">Work Experience</h3>
 				<div>
-					<h4>Front-End Developer Freelance</h4>
+					<h4>Front-End Developer Freelance</h4> 
 					<p>September 2019 - up to now | Country</p>
 					<ul>
 						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -70,8 +85,8 @@
 				</div>
 
 			</div>
-			<div>
-				<h3>Education</h3>
+			<div class="education">
+				<h3 class="title" >Education</h3>
 				<h4>National University of Radioelectronics</h4>
 				<h4>Management</h4>
 				<p>September 2009 - June 2014 | Country</p>
@@ -81,32 +96,32 @@
 
 		
 		<!--sidebar -->
-		<aside>
-			<img src="./style/img/photo.jpg" alt="photo">
-			<h3>Contacts</h3>
-			<div>
-				<p>C:<a href="tel:+1 111 111 11 11"> +1 111 111 11 11</a></p>  
-				<p>E:<a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a> </p> 
+		<aside class="sidebar">
+			<img class="photo" src="./style/img/photo.jpg" alt="photo">
+			<div class="contact">
+				<h3 class="sidebar_title">Contacts</h3>
+				<p><span class="contact_type">C:</span><a class="contact_link" href="tel:+1 111 111 11 11"> +1 111 111 11 11</a></p>  
+				<p><span class="contact_type">E:</span><a class="contact_link" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a> </p> 
 			</div>
-			<div>
-				<h3>Tech Skills</h3>
-				<ul>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>GIT</li>
-					<li>WebPack</li>
-					<li>JavaScript</li>
-					<li>React.js</li>
-					<li>Node.js</li>
+			<div class=" tech_skills">
+				<h3 class="sidebar_title">Tech Skills</h3>
+				<ul class="skills_list">
+					<li class="tech_skills_item"><span class="tech_skills_text">HTML5</span></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">CSS3</span></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">GIT</span></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">WebPack</span></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">React.js</span></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">Node.js</span></li>
 				</ul>
 			</div>
-			<div>
-				<ul>
-					<h3>Soft Skills</h3>
-					<li>Scrum</li>
-					<li>Agile</li>
-					<li>GTD</li>
-					<li>Teamwork</li>
+			<div class="soft_skills">
+				<h3 class="sidebar_title">Soft Skills</h3>
+				<ul class="skills_list" >
+					<li class="tech_skills_item"><span class="tech_skills_text">Scrum</spanc></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">Agile</spanc></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">GTD</spanc></li>
+					<li class="tech_skills_item"><span class="tech_skills_text">Teamwork</spanc></li>
 				</ul>
 			</div>
 		</aside>
